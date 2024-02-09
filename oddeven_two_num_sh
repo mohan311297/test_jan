@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+if [ $# -ne 1 ]; then
+echo "enter exactly one numbers"
+exit 
+fi 
+
+if [[ $(($1 % 2)) -eq 0 ]]; then
+echo "$1 is even number"
+else
+echo "$1 is odd number"
+fi
