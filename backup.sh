@@ -1,5 +1,5 @@
 #!/bin/bash
-
+1
 if [[ $# != 2 ]]; then
 echo "enter <path> <file_type>"
 exit
