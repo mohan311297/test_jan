@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 if [[ $# -ne 2 ]]; then
 	echo "enter exactly two numbers"
