@@ -6,6 +6,7 @@ if [[ $# -ne 2 ]]; then
 fi
 if (( $1 < $2 )); then
 	echo "$1 is lesser than $2"
-else
+els
 	echo "$2 is lesser than $1"
+fi
 fi
