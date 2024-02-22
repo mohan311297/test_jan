@@ -1,0 +1,12 @@
+#!/bin/bash
+
+highest=$1
+
+for num in $@
+do
+	if  (( num > highest )) ; then
+                highest=$num
+fi
+done
+echo "$highest"
+
