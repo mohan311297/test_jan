@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/ibin/bash
 if [ $# -ne 3 ] ; then
 	echo "enter exactly three numbers"
 	exit 
